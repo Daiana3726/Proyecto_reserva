@@ -1,0 +1,97 @@
+body {
+    font-family: 'Lucida Bright', sans-serif;
+    background-color: #edf5f4;
+    color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+}
+
+.booking-container {
+    background-color: #0ae8f0;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.form-icon {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.booking-form h2 {
+    margin: 0 0 0.5rem 0;
+    font-weight: 600;
+    color: #121213;
+}
+
+.booking-form p {
+    margin-bottom: 2rem;
+    color: #1809e7;
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #18cee6;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    background-color: #f8fafc;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #26b1bb;
+    background-color: #fff;
+}
+
+.date-time-group {
+    display: flex;
+    gap: 1rem;
+}
+
+.date-time-group .form-group {
+    flex: 1;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.9rem;
+    background-color: #0d5beb;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
